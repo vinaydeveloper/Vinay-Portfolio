@@ -1,0 +1,426 @@
+.w-10{
+	width: 10%;
+}
+
+/*---------------------------------------- Header ----------------------------------------*/
+
+/* Header 1 */
+
+.topheader{
+	background-color: #495052;
+}
+
+.topheader svg{
+	font-size: 22px;
+	color: #dadbdb;
+}
+
+.topheader label{
+	font-family: 'ralewayregular';
+	font-size: 14px;
+    color: #dadbdb;
+}
+
+.topheader .login{
+	background-color: #404547;
+}
+
+.login svg{
+	font-size: 32px;
+}
+
+.login span{
+	font-family: 'ralewaybold';
+	font-size: 14px;
+	color: #dadbdb;
+}
+
+/* Header 2 (Navigation) */
+
+.navbar a{
+	font-family: 'montserratlight';
+	font-size: 17px;
+	color: #bbb9b7;
+}
+
+.navbar li:hover a{
+	color: white;
+}
+
+nav.navbar li:hover{
+	background-color: #bbb9b7;
+	border-radius: 10px;
+}
+
+.navbar button{
+	font-family: 'montserratlight';
+	background-color: #ec774b;
+    border: #ec774b;   
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+/*---------------------------------------- Main ----------------------------------------*/
+
+.topbanner{
+	background-image: url(../images/homebaner.png);
+	height:500px;
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.downloadarea{
+	background-color: #69cbdf;
+}
+
+.downloadarea .title, .openinghour .title{
+    font-family: 'ralewayregular';
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+
+.downloadarea p, .openinghour .row div{
+    font-family: 'ralewayregular';
+    font-size: 15px;
+    letter-spacing: 1px;
+ }
+
+ .downloadarea button {
+    font-family: 'ralewayregular';
+    font-size: 14px;
+    letter-spacing: 1px;
+    background-color: rgba(0, 0, 0, 0.08);
+    border: none;
+}
+
+.openinghour{
+	background-color: #edbf47;
+}
+
+.openinghour hr{
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+.findcourse label {
+    color: #7d7c84;
+    font-family: 'ralewayregular';
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
+.findcourse select{
+	font-family: 'ralewayregular';
+	font-size: 15px;
+	letter-spacing: 1px;
+	color: #a4a4a4;
+	border: solid 1px #f1f1f1;
+	border-radius: 5px;
+}
+
+.findcourse button {
+    font-family: 'ralewayregular';
+    font-size: 15px;
+    letter-spacing: 1px;
+    background-color: #eb6648;
+}
+
+.courses .title h1{
+    font-family: 'montserratsemibold';
+    font-size: 50px;
+    color: #7d7c84;
+}
+
+.courses .title p{
+	font-family: 'ralewaylight';
+	font-size: 17px;
+	color: #929191;
+}
+
+.courses .courselist label{
+	font-family: 'ralewaylight';
+	font-size: 20px;
+	color: #868585;
+}
+
+.courses .courselist p{
+	font-family: 'ralewaylight';
+    font-size: 14px;
+    color: #a4a4a4;
+    letter-spacing: 1px;
+    line-height: 22px;
+}
+
+.authorimg{
+	background-color: #f9f9f9;
+}
+
+.authorimg img{
+	width: 32px;
+	border-radius: 25px;
+}
+
+.authorimg span{
+    font-family: 'ralewaylight';
+    font-size: 15px;
+    color: #a4a4a4;
+    letter-spacing: 1px;
+}
+
+.authorimg button{
+    font-family: 'montserratlight';
+    font-size: 12px;
+    background-color: #e16c6c;
+    border: none;
+    letter-spacing: 1px;
+}
+
+.bottombanner{
+    background-image: url(../images/formimg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bottomrgba{
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+ .registertimer p{
+    font-family: 'ralewaylight';
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+.registertimer label{
+    font-family: 'montserratsemibold';
+    font-size: 60px;
+    letter-spacing: 1px;
+}
+
+.durations label{
+    font-family: 'montserratregular';
+    font-size: 35px;
+}
+
+.durations span{
+	font-family: 'ralewaylight';
+	font-size: 15px;
+	letter-spacing: 1px;
+	border: none;	
+	border-radius: 3px;
+}
+
+.durations div:nth-child(1) span{
+	background-color: #74cee4;
+}
+
+.durations div:nth-child(2) span{
+	background-color: #edbf47;
+}
+
+.durations div:nth-child(3) span{
+	background-color: #ec774b;
+}
+
+.durations div:nth-child(4) span{
+	background-color: #6fc191;
+}
+
+.registerform .header{
+	background-color:  #f9f9f9;
+}
+
+.registerform span{
+	background-color: #ec774b;
+	border: none;
+	border-radius: 3px;
+	font-family: 'ralewaylight';
+	font-size: 15px;
+	letter-spacing: 1px;
+}
+
+.registerform .header p{
+	color: #868585;
+	font-family: 'montserratregular';
+	font-size: 30px;
+	letter-spacing: 2px;
+	line-height: 22px;
+}
+
+.registerrecord textarea{
+	background: none;
+    background-color: rgba(0, 0, 0, 0);
+    border: solid 1px #d2d2d2;
+    border-radius: 4px;
+    font-family: 'montserratregular';
+    font-size: 15px;
+    background-color: #f9f9f9;
+    width: 100%;
+    height: 140px;
+}
+
+.registerrecord input{
+	background-color: #f9f9f9;
+	border: solid 1px #d2d2d2;
+	border-radius: 4px;
+	font-family: 'montserratthin';
+	font-size: 15px;	
+}
+
+.registerrecord button{
+	font-family: 'ralewaylight';
+	width: 100%;
+	background-color: #ec774b;
+}
+
+.footercontent{
+	background-color: #495052;
+}
+
+.footercontent img{
+    width: 80px;
+}
+
+.footercontent span{
+    font-family: 'montserratregular';
+    font-size: 17px;
+    font-weight: 10px;
+}
+
+.footercontent p{
+    font-family: 'ralewaylight';
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 27px;
+}
+
+.blogtitle h4{
+    font-family: 'montserratsemibold';
+    font-size: 50px;
+    color: #7d7c84;
+}
+
+.blogtitle p{
+    font-family: 'ralewaylight';
+    font-size: 17px;
+    color: #929191;
+}
+
+.blogs img{
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.blog1 > div{
+	background-color: #edbf47;
+}
+
+.blog2 > div{
+	background-color: #6fc191;
+}
+
+.blog3 > div{
+	background-color: #ec774b;
+	border-radius: 5px;
+}
+
+.blog4 > div, .blog5 > div{
+	background-color: #e16c6c;
+}
+
+.checkevent > div {
+	background-color: #c389ce;
+	border-radius: 5px;
+}
+
+.blog1 > div, .blog2 > div ,.blog4 > div, .blog5 > div{
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;	
+}
+
+.blog3 span{
+	font-family: 'ralewaylight';
+}
+
+.blogs div > a{
+    text-decoration: none;
+    color: #f8f9fa;
+    font-family: 'montserratregular';
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.blogs div p{
+	font-family: 'ralewaylight';
+  	font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 27px;
+}
+
+.blogs button{
+	background-color: rgba(0, 0, 0, 0.05);
+	border: none;
+	border-radius: 5px;
+}
+
+.blogs button a{
+	font-family: 'montserratlight';
+	font-size: 14px;
+	text-decoration: none;
+	color: #f8f9fa;
+	line-height: 35px;
+}
+
+/*---------------------------------------- Footer ----------------------------------------*/
+
+/* Footer 1 */
+
+.footertop{
+	background-color: #495052;
+}
+
+.footertop label{
+	font-family: 'montserratlight';
+	font-size: 17px;
+	letter-spacing: 1px
+}
+
+.footertop p{
+	font-family: 'ralewaylight';
+	color: #a3a3a4;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.mediaicon a{
+	font-size: 22px;
+	color: white;
+}
+
+.footertop .mnumber{
+	font-family: 'ralewaylight';
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.footertop input{
+	background-color: #404548;
+}
+
+.footertop button{
+    background-color: #ec774b;
+    font-family: 'ralewayregular';
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #fff;
+    border: none;
+}
+
+/* Footer 2 */
+
+.footerbottom{
+	background-color: #404548;
+	font-family: 'ralewaylight';
+	color: #a3a3a4;
+	font-size: 14px;
+	letter-spacing: 1px;
+}
